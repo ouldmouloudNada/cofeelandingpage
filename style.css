@@ -157,19 +157,20 @@ body{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
     cursor: pointer;
 }
-.menu-item .price{
+.price{
     display: flex;
     justify-content: space-between;
 }
-.menu-item .price .order{
+ .price .order{
     background-color: #A0583C;
     border-radius: 20px;
     padding:  10px;
     width: 50%;
     cursor: pointer;
     color: white;
+    text-align: center;
 }
-.menu-item .price .number{
+ .price .number{
     font-weight: 600;
     margin-top: 10px;
 }
@@ -188,6 +189,26 @@ body{
 .text .learn{
     cursor: pointer;
 }
-
+.special-menu{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.menu-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.box1{
+    background-color: #835E4C;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
 
 
